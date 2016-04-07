@@ -55,10 +55,10 @@ While testing the potential outcome of the game, you may want to assign static v
 For example:
 When working with Rock, Assign the computer's choice to the index of rock
 	
-	```ruby
-	rps_array = ["Rock", "Paper", "Scissors"]
-	computer choice = rps_array[0]
-	```
+```ruby
+rps_array = ["Rock", "Paper", "Scissors"]
+computer choice = rps_array[0]
+```
 	
 Obviously, you'll only want to do this temporarily, but it helps with keeping some consistency while testing. 
 
